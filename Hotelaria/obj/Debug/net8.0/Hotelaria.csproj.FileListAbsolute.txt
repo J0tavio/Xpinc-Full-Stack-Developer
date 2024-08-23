@@ -1,0 +1,15 @@
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\bin\Debug\net8.0\Hotelaria.exe
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\bin\Debug\net8.0\Hotelaria.deps.json
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\bin\Debug\net8.0\Hotelaria.runtimeconfig.json
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\bin\Debug\net8.0\Hotelaria.dll
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\bin\Debug\net8.0\Hotelaria.pdb
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\obj\Debug\net8.0\Hotelaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\obj\Debug\net8.0\Hotelaria.AssemblyInfoInputs.cache
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\obj\Debug\net8.0\Hotelaria.AssemblyInfo.cs
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\obj\Debug\net8.0\Hotelaria.csproj.CoreCompileInputs.cache
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\obj\Debug\net8.0\Hotelaria.sourcelink.json
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\obj\Debug\net8.0\Hotelaria.dll
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\obj\Debug\net8.0\refint\Hotelaria.dll
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\obj\Debug\net8.0\Hotelaria.pdb
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\obj\Debug\net8.0\Hotelaria.genruntimeconfig.cache
+C:\Users\jo370\Programação\BackEnd\C#\Xpinc-Full-Stack-Developer\Hotelaria\obj\Debug\net8.0\ref\Hotelaria.dll

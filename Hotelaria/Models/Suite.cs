@@ -7,13 +7,12 @@ namespace Hotelaria.Models
 {
     public class Suite
     {
-        private string tipoSuite;
-        private int capacidade;
-        private decimal valorDiaria;
 
-        public Suite()
+        public Suite(string tipoSuite, int capacidade, decimal valorDiaria)
         {
-
+            TipoSuite = tipoSuite;
+            Capacidade = capacidade;
+            ValorDiaria = valorDiaria;
         }
 
         public string TipoSuite { get; set; }
