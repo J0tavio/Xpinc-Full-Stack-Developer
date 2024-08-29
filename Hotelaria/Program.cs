@@ -12,7 +12,7 @@ hospedes.Add(p2);
 
 Suite suite = new Suite("Premium", 3, 30);
 
-Reserva reserva = new Reserva(10);
+Reserva reserva = new Reserva(5);
 reserva.CadastrarSuite(suite);
 reserva.CadastrarHospedes(hospedes);
 
