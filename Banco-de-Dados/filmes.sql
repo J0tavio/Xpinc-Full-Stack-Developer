@@ -1,4 +1,4 @@
--- Querys feitas no MySQL
+-- Queries feitas no MySQL
 
 -- 1 
 SELECT nome, ano FROM filmes;
