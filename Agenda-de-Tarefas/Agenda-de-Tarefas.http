@@ -1,6 +1,0 @@
-@Agenda_de_Tarefas_HostAddress = http://localhost:5296
-
-GET {{Agenda_de_Tarefas_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
