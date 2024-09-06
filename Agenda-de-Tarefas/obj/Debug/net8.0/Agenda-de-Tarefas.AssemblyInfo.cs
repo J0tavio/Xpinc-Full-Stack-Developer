@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Agenda-de-Tarefas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8008083e4971793ae86dc51019a72299c1359ed2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+930f35693da554bd761c6ae292a199c385ccd943")]
 [assembly: System.Reflection.AssemblyProductAttribute("Agenda-de-Tarefas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Agenda-de-Tarefas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
