@@ -57,7 +57,6 @@ namespace Minimal_api.Dominio.Servicos
                 query = query.Skip(((int)pagina - 1) * itemsPorPagina).Take(itemsPorPagina);
             }
 
-
             return query.ToList();
         }
     }
