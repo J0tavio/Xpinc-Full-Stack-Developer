@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.VisualBasic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Minimal_api.Dominio.DTOs;
 using Minimal_api.Dominio.Entidades;
 using Minimal_api.Dominio.Interfaces;
 using Minimal_api.Dominio.Servicos;
@@ -69,10 +70,38 @@ namespace Test.Domain.Servicos
 
             // Act
             administradorServico.Incluir(adm);
-            var dmDoBanco = administradorServico.BuscaPorId(adm.Id);
+            var admDoBanco = administradorServico.BuscaPorId(adm.Id);
 
             // Assert
-            Assert.AreEqual(1, dmDoBanco.Id);
+            Assert.AreEqual(1, admDoBanco.Id);
+        }
+
+        [TestMethod]
+        public void TestandoLogin()
+        {
+            // Arrange 
+            var context = CriarContextoDeTeste();
+            context.Database.ExecuteSqlRaw("TRUNCATE TABLE Administradores");
+
+            var loginDTO = new LoginDTO();
+
+            var adm = new Administrador();
+            adm.Email = "teste@teste.com";
+            adm.Senha = "teste";
+            adm.Perfil = "Adm";
+
+            loginDTO.Email = adm.Email;
+            loginDTO.Senha = adm.Senha;
+
+            var administradorServico = new AdministradorServico(context);
+
+            // Act
+            administradorServico.Incluir(adm);
+            var admDoBanco = administradorServico.Login(loginDTO);
+
+            // Assert
+            Assert.AreEqual("teste@teste.com", admDoBanco.Email);
+            Assert.AreEqual("teste", admDoBanco.Senha);
         }
     }
 }
