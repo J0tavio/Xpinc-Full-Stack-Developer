@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Minimal-api")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a662c6649829f64320a7216ab67a589af9b7dc52")]
-[assembly: System.Reflection.AssemblyProductAttribute("Minimal-api")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Minimal-api")]
+[assembly: System.Reflection.AssemblyProductAttribute("App")]
+[assembly: System.Reflection.AssemblyTitleAttribute("App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
